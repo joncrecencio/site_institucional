@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+    
+    .menu-mobile i{
+        font-size: 32px;
+        color: #16507b;
+        cursor: pointer;
+    }
+
+    .main__cta h2,
+    .main__cta p{
+        text-align: center;
+    }
+    
+    .diferenciais{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .conquista-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .descricao, .contexto{
+        grid-template-columns:1fr;
+    }
+
+    .descricao .btn-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

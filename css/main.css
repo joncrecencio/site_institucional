@@ -1,0 +1,78 @@
+section.main{
+    background-image: url(../image/engenharia.jpg);
+    padding: 80px 0;
+    background-position: 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 4%;
+}
+
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main__cta .btn-main{
+    margin:20px 0;
+}
+
+.main__cta .btn-main .btn-menu{
+    padding: 12px 48px;
+    font-size: 22px;
+}
+
+.diferenciais{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.diferencial_single{
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 60px 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    transition: 600ms;
+
+}
+
+.diferencial_single:hover{
+    transition: 600ms;
+    transform: scale(1.08, 1.08);
+}
+
+.diferencial_single i{
+    color: #124265;
+    font-size: 22px;
+}
+
+.diferencial_single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.diferencial_single p{
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}

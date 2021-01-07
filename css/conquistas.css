@@ -1,0 +1,49 @@
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 30px 0;
+}
+
+section.conquistas.new-img{
+    padding: 0;
+}
+
+.conquista-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.conquista-single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.conquista-single p{
+    font-size: 32px;
+    font-weight: 400;
+    color:#16507b;
+}
+
+.conquista-single span{
+    color:#16507b;
+    font-size: 18px;
+}
+
+.conquista-single img{
+    max-width: 50%;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+
+.conquista-single img:hover{
+    transition: 1s;
+    filter: contrast(100%);
+    transform: scale(1.1, 1.1);
+}
+
+.conquista-single.new-img{
+    padding: 0;
+}

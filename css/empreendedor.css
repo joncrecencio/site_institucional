@@ -1,0 +1,23 @@
+section.empreendedor{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.contexto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contexto iframe{
+    width: 100%;
+    height: 350px;
+}
+
+.conteudo-empreendedor h2{
+    color: #16507b;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}

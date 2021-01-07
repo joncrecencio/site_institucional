@@ -1,0 +1,52 @@
+section.sobre{
+    padding: 0 0 50px;
+}
+
+.sobre h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.descricao{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+    color: #444;
+}
+
+.descricao .btn-main{
+    margin: 20px 0;
+}
+
+.descricao .btn-main .btn-menu{
+    padding: 8px 44px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid #009bd9;
+    color: #009bd9;
+}
+
+.descricao .btn-main .btn-menu:hover{
+    transition: 600ms;
+    background-color: #007bff;
+    border: 1px solid white;
+    color: white;
+}
+
+.descricao-flex{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.descricao-flex span{
+   margin-top: 4px;
+}
+
+.descricao-flex i{
+    color: #009bd9;
+    font-size: 14px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
