@@ -33,7 +33,7 @@ section.conquistas.new-img{
 }
 
 .conquista-single img{
-    max-width: 50%;
+    max-width: 40%;
     transition: 1s;
     filter: grayscale(100%);
 }
