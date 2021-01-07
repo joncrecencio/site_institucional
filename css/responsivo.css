@@ -22,11 +22,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .conquista-grid{
-        grid-template-columns: 1fr;
-    }
-
-    .descricao, .contexto{
+    .conquista-grid,
+    .descricao, 
+    .contexto, 
+    .depoimento-pessoas{
         grid-template-columns:1fr;
     }
 
