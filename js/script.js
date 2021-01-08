@@ -1,7 +1,5 @@
 let el = document.querySelector('.active')
-
 el.addEventListener('click', () => {
-
     // Queremos mostrar o menu
     let menuItems = document.querySelector('.menu-items')
 
@@ -10,7 +8,6 @@ el.addEventListener('click', () => {
         menuItems.classList.add('hide')
         menuItems.classList.remove('show')
     }
-
     // Se a classe não existir, ele adiciona a classe para mostrar e remove a classe "oculta"
     else{
         menuItems.classList.add('show')
