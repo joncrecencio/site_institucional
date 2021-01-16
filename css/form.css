@@ -1,0 +1,86 @@
+section.form{
+    background-image: url(../image/contato.png);
+    padding: 10px 0 25px 0;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.form fieldset{
+    border: none;
+}
+
+.form legend{
+    font-size: 28px;
+    color: #5c8599;
+}
+
+.input-block{
+    margin-top: 20px;
+}
+
+.input-block label{
+    color: #8fa7b3;
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+
+.input-block input,
+.input-block textarea{
+    width: 98%;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    color: #5c8599;
+}
+
+.input-block input{
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 16px;
+}
+
+.input-block input:valid,
+.input-block textarea:valid{
+    border: 1px solid #a1e9c5;
+}
+
+.input-block textarea{
+    height: 100px;
+    resize: vertical;
+    padding: 16px;
+    line-height: 16px;
+}
+
+#submit-email .btn-menu{
+    width: 100%;
+    cursor: pointer;
+}
+
+section.informacao-especial{
+    padding: 40px 0;
+}
+
+.info-descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.info-descricao p{
+    font-size: 14px;
+    color: #444;
+    padding: 15px 2%;
+}
+
+section.localizacao{
+    width: 100%;
+    height: 500px;
+}
