@@ -72,5 +72,9 @@
     .menu-list a{
         margin: 8px 0 0 0;
     }
+
+    #btn_top{
+        margin-top: 8px;
+    }
 }
 

@@ -13,5 +13,21 @@ el.addEventListener('click', () => {
         menuItems.classList.add('show')
         menuItems.classList.remove('hide')
     }
-    
 })
+
+window.onscroll = function(){
+    scroll()
+}
+
+function scroll(){
+    let btn_top = document.querySelector('#btn_top')
+    if (document.documentElement.scrollTop > 50){
+        btn_top.style.display = "block"
+    }else{
+        btn_top.style.display = "none"
+    }
+}
+
+function backToTop(){
+    document.documentElement.scrollTop = 0
+}
